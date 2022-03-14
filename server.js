@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 app.use(express.urlencoded({ extended: true })) // Creates req.body
 app.use(methodOverride('_method')); // Allows us to override methods
 app.use(express.static('public')); // Allows us to have Static Files
-
+app.use('/products', require('./controllers/routeController.js'))
 
 // Listen on PORT
 app.listen(PORT, () => {

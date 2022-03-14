@@ -8,7 +8,7 @@ const dataController = {
           msg: err.message
         })
       }else {
-        res.locals.data.products = allProducts
+        res.locals.data.product = allProducts
         next()
       }
     })

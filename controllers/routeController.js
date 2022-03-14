@@ -3,10 +3,11 @@ const router = express.Router();
 const viewController = require('./viewController.js')
 const dataController = require('./dataController.js')
 // add routes
+
 // Index
 router.get('/', dataController.index, viewController.index)
 // New
-router.get('/new', dataController.new, viewController.new)
+router.get('/new', viewController.new)
 // Delete
 router.delete('/:id', dataController.destroy, viewController.redirectHome)
 // Update
