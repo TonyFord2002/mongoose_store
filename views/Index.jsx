@@ -12,9 +12,13 @@ const React = require('react')
                 {
                    this.props.products.map((product, i) => {
                     return (
-                        <li key={i}>
-                            The <a href = {`/products/${ product._id }`}>{ product.name } </a> is {product.price }.
-                               <a href={`/products/${product._id}/edit`}>Buy this Product</a>
+                        <li key={i} style={{listStyleType:'none'}}>
+                           <a href = {`/products/${ product._id }`}><img style={{height:'200px', width:'200px'}} src = { product.img }></img></a><br/>
+                            Item: { product.name }<br/>
+                            Description: {product.description}<br/>
+                            Price:${product.price}.<br/>
+                            Quantity: {product.qty}<br/>
+                               <a href={`/products/${product._id}`}>Buy this Product</a>
                                <br/><br/>
                         </li>
                         )

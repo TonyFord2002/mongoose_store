@@ -11,9 +11,10 @@ class New extends React.Component {
           Name: <input type="text" name="name" /><br/>
           Description: <input type='text' name='description'/><br />
           Image Link: <input type='text' name='img'/><br/>
-          Price: <input type="number" name="price" /><br/>
+          Price: <input type="number" step = '0.01' name="price" /><br/>
           Quantity: <input type='number' name= 'qty'/><br/>
-          <input type="submit" name="" value="Add Candy"/>
+          <input type="submit" name="" value="Add Candy"/><br/>
+
         </form>
         
         </div>
