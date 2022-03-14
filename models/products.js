@@ -7,4 +7,4 @@ const productSchema = new mongoose.Schema({
         price: {type: Number, required: true},
         qty: {type: Number, required: true}
 })
-const Fruit = mongoose.model('Products', productSchema)
+const Product = mongoose.model('Products', productSchema)
