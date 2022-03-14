@@ -1,4 +1,4 @@
-const Product = require('../models/products.js');
+const Product = require('../models/products')
 
 const dataController = {
   index(req, res, next){
@@ -8,7 +8,7 @@ const dataController = {
           msg: err.message
         })
       }else {
-        res.locals.data.product = allProducts
+        res.locals.data.products = allProducts
         next()
       }
     })
