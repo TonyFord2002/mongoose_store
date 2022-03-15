@@ -17,8 +17,7 @@ const React = require('react')
                             Item: { product.name }<br/>
                             Description: {product.description}<br/>
                             Price:${product.price}.<br/>
-                            Quantity: {product.qty}<br/>
-                               <a href={`/products/${product._id}`}>Buy this Product</a>
+                            <a href={`/products/${product._id}`}>Buy this Product</a>
                                <br/><br/>
                         </li>
                         )

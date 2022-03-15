@@ -1,7 +1,6 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
 const Product = require('./models/products')
-const PORT = process.env.PORT || 3000
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
@@ -46,7 +45,7 @@ const seedCandy= [
         }, {
             name: 'Tootsie Roll',
             description: 'Oldie but goldy, chocolatey rolly',
-            img: 'https://sites.psu.edu/tota137/files/2019/02/Unknown-2-2o62jo7.jpeg',
+            img: 'https://www.mastgeneralstore.com/prodimages/9050-DEFAULT-l.jpg',
             price: 1.99,
             qty: 15
         }
