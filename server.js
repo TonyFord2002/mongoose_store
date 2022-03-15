@@ -22,8 +22,15 @@ app.use((req, res, next) => {
 
 // Creates res.locals.data
 app.use(express.urlencoded({ extended: true })) // Creates req.body
-app.use(methodOverride('_method')); // Allows us to override methods
+app.use(methodOverride('_method')) // Allows us to override methods
 app.use('/products', require('./controllers/routeController.js'))
+
+//Redirecting to Index page
+app.get('/', (req,res)=>{
+    res.redirect('/products')
+})
+
+
 
 // Listen on PORT
 app.listen(PORT, () => {

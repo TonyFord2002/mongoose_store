@@ -4,7 +4,7 @@ const React = require('react')
        render(){
         return ( 
         <div> 
-            <h1>Products Page</h1>
+            <h1>My Candy Store</h1>
             <nav>
             <a href="/products/new">Add a new candy</a>
             </nav>
