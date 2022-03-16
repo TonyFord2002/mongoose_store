@@ -3,8 +3,8 @@ const React = require('react');
 class New extends React.Component {
   render() {
     return( 
+     <body style={{backgroundColor:'rgb(255, 193, 204)'}}> 
     <div>
-      <link rel="stylesheet" href="/css/app.css"/>    
         <h1>New Candy page</h1>
         {/* NOTE: action will be the route, method will be the HTTP verb */}
         <form action="/products" method="POST">
@@ -18,6 +18,7 @@ class New extends React.Component {
         </form>
         
         </div>
+        </body>
   )
 }
 }
