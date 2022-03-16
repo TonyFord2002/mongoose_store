@@ -46,7 +46,7 @@ Once it is on your machine you will need to change into the correct directory an
 
 * npm i method-override 
 
-* npm install express-react-views react@16 react-dom@16 –save
+* npm i  express-react-views react@16 react-dom@16 –save
 
 You will need to create a .env file and fill it with
 
@@ -58,6 +58,14 @@ After those steps are complete you can now type
 * nodemon 
 
 That will open the link to MongoDB using mongoose and will allow you to run my store on localhost:3000 or your chosen port from your .env file. 
+
+It should look something like this:
+
+![Picture of Index page](ScreenshotIndex.png)
+
+This is what the individual candy page should look like:
+
+![Picture of Product page](ScreenshotShow.png)
 
 In a second terminal you will need to enter 
 
