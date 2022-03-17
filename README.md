@@ -6,7 +6,7 @@ I wanted to create a store where candy can be bought and added back. I seeded it
 
 --Application Function--
 
-This is CRUD project that allows a user to view, add, delete, and edit candy. The picture can be clicked on to take you to the candy page where it can be bought until it is out of stock. Then you can return to the main page that has all the items listed. 
+This is a CRUD project that uses RESTFUL routes to allow a user to view, add, delete, and edit candy. The picture can be clicked on to take you to the candy page where it can be bought until it is out of stock. Then you can return to the main page that has all the items listed. 
 
  
 

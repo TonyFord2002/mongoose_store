@@ -5,7 +5,7 @@ class New extends React.Component {
     return( 
      <body style={{backgroundColor:'rgb(255, 193, 204)'}}> 
     <div>
-        <h1>New Candy page</h1>
+        <h1>Add New Candy</h1>
         {/* NOTE: action will be the route, method will be the HTTP verb */}
         <form action="/products" method="POST">
           Name: <input type="text" name="name" /><br/>
