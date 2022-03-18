@@ -30,8 +30,6 @@ app.get('/', (req,res)=>{
     res.redirect('/products')
 })
 
-
-
 // Listen on PORT
 app.listen(PORT, () => {
   console.log('Making that money on:', PORT)

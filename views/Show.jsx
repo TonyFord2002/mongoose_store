@@ -15,19 +15,23 @@ const React = require('react')
                 <p style = {{fontSize:'20px'}}>Description: {this.props.product.description}</p>
                 <p style = {{fontSize:'20px'}}>Price: ${this.props.product.price}</p>
                 <p style = {{fontSize:'20px'}}>Quantity: {this.props.product.qty}</p>
-                               <br/><br/>
+        <br/><br/>
          {/* Buy button   */}
         <form  action={`/products/${this.props.product._id}?_method=PATCH`} method="POST">
             <input style={{color:'white', backgroundColor:'gold', fontSize:'15px', borderRadius:'10px'}} type="submit" value="Buy Item" />
         </form>
+        
         {/* Edit button */}
         <a  href={`/products/${this.props.product._id}/edit`}><button style={{color:'white', backgroundColor:'lightblue', fontSize:'15px', borderRadius:'10px'}}>Edit Item</button></a>
+        
         {/* Delete button   */}
         <form action={`/products/${this.props.product._id}?_method=DELETE`} method="POST">
             <input style={{color:'white', backgroundColor:'red', fontSize:'15px', borderRadius:'10px'}} type="submit" value="Delete Item"/>
         </form>
+        
         {/* Back to main page button */}
         <a href={'/products'}><button style={{color:'white', backgroundColor:'lightgreen', fontSize:'15px', borderRadius:'10px'}}>Back to List</button></a>
+            
             </div>
             </body>
          )
@@ -47,12 +51,15 @@ const React = require('react')
 
         {/* Edit button */}
         <a  href={`/products/${this.props.product._id}/edit`}><button style={{color:'white', backgroundColor:'lightblue', fontSize:'15px', borderRadius:'10px'}}>Edit Item</button></a>
+        
         {/* Delete button   */}
         <form action={`/products/${this.props.product._id}?_method=DELETE`} method="POST">
             <input style={{color:'white', backgroundColor:'red', fontSize:'15px', borderRadius:'10px'}} type="submit" value="Delete Item"/>
         </form>
+
         {/* Back to main page button */}
         <a href={'/products'}><button style={{color:'white', backgroundColor:'lightgreen', fontSize:'15px', borderRadius:'10px'}}>Back to List</button></a>
+        
             </div>
             </body>
          )

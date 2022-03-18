@@ -74,3 +74,7 @@ In a second terminal you will need to enter
 It will prepopulate the store with 6 candies and all their information. 
 
 You are now ready to have fun with my store! Enjoy it and add your favorite candy to the list!
+
+Here is a short video demonstration of my page and breif desription of the code used.
+
+[YouTube Video](https://youtu.be/aJSR2I_S-84)

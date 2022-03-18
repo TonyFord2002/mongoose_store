@@ -43,11 +43,11 @@ const seedCandy= [
           price: 1.99,
           qty: 15
         }, {
-            name: 'Tootsie Roll',
-            description: 'Oldie but goldy, chocolatey rolly',
-            img: 'https://www.mastgeneralstore.com/prodimages/9050-DEFAULT-l.jpg',
-            price: 1.99,
-            qty: 15
+          name: 'Tootsie Roll',
+          description: 'Oldie but goldy, chocolatey rolly',
+          img: 'https://www.mastgeneralstore.com/prodimages/9050-DEFAULT-l.jpg',
+          price: 1.99,
+          qty: 15
         }
           
       ]
